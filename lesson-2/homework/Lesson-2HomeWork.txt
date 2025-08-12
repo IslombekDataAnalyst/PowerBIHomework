@@ -1,0 +1,59 @@
+1. Three data sources Power BI can connect to:
+
+Excel files
+
+SQL databases
+
+Web APIs
+
+2. First step to import data into Power BI Desktop:
+Click Home → Get Data.
+
+3. How to refresh imported data:
+Click Refresh on the Home tab.
+
+4. File formats Power BI can import directly (two examples):
+
+.csv
+
+.xlsx
+
+5. What the "Navigator" window shows:
+A preview of tables/sheets available in the data source.
+
+6. Import Sales_Data.csv and load only "Product" and "Price":
+In Navigator → Select CSV → Transform Data → Remove other columns → Load.
+
+7. Change OrderDate to date format during import:
+In Power Query → Select column → Change Data Type → Date.
+
+8. Difference between "Load" and "Transform Data":
+
+Load: Import as-is
+
+Transform Data: Open Power Query to clean/edit before loading
+
+9. Possible reason for SQL connection error:
+Wrong server name or missing login credentials.
+
+10. Replace a data source after importing:
+Go to Home → Data source settings → Change Source.
+
+11. M-code to import only rows where Quantity > 1:
+
+m
+Копировать
+Редактировать
+= Table.SelectRows(Source, each [Quantity] > 1)
+12. Change the data source if file location changes:
+Use Data source settings → Change Source to update the file path.
+
+13. Fix "mixed data type" error in CSV:
+In Power Query, set the column to the correct data type (e.g., Text, Number).
+
+14. Connect to a live SQL database with parameters:
+In Get Data → SQL Server, enter server/database, then use query parameters to filter (e.g., WHERE YEAR(OrderDate) = 2023).
+
+15. Automate imports with Power BI + Power Automate:
+Create a scheduled refresh in Power BI Service, or trigger a dataset refresh in Power Automate when a file changes.
+
