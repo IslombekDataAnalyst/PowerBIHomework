@@ -1,0 +1,70 @@
+Lesson 1.
+1. What is Power BI, and what are its three main components?
+Power BI is a Microsoft tool for data analysis and visualization.
+Main components:
+
+Power BI Desktop – build reports
+
+Power BI Service – share and view reports online
+
+Power BI Mobile – access reports on mobile devices
+
+2. Name two business use cases for Power BI dashboards.
+
+Sales performance tracking
+
+Financial and budget analysis
+
+3. How do you download and install Power BI Desktop?
+Go to Microsoft Power BI website, click Download, run the installer, and follow the setup steps.
+
+4. Difference between Power BI Desktop and Power BI Service:
+
+Desktop – create and design reports locally
+
+Service – publish, share, and collaborate online
+
+5. File extension of a Power BI project:
+.pbix
+
+6. Role of Power Query in Power BI:
+Power Query is used to connect, clean, and transform data before building reports.
+
+7. Why would a business prefer Power BI over Excel for reporting?
+It offers interactive dashboards, automatic refresh, better visuals, and easier sharing.
+
+8. One limitation of the free version:
+You cannot share reports with other users online.
+
+9. What is a "published report" in Power BI Service?
+A report created in Desktop and uploaded to the Service for viewing and sharing.
+
+10. How does Power BI Mobile enhance accessibility?
+It lets users view and interact with dashboards from smartphones or tablets anywhere.
+
+11. Compare Power BI with Tableau—pros and cons:
+
+Power BI pros: Cheaper, integrates well with Microsoft products, user-friendly
+
+Cons: Fewer advanced visualization options than Tableau
+
+Tableau pros: More advanced visuals, strong in big data analytics
+
+Cons: More expensive, steeper learning curve
+
+12. Power BI and Azure integration:
+It can connect to Azure SQL Database, Azure Data Lake, and other Azure services for live data.
+
+13. What are "gateways" in Power BI, and when are they needed?
+Gateways connect Power BI Service to on-premises data for scheduled refreshes.
+
+14. How to convince a company to adopt Power BI (ROI):
+Lower cost than competitors, faster report creation, time savings, better decision-making from real-time data.
+
+15. Security features for sensitive data:
+
+Row-level security (RLS)
+
+Encryption
+
+Role-based access control
